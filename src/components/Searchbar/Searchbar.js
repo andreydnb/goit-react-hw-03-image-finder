@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import SearchFrom from '../SearchForm/SearchForm';
 
-import styles from './searchbar.module.css';
+import styles from './searchbar.module.scss';
 
 const Searchbar = ({ onSearch }) => (
   <header className={styles.Searchbar}>

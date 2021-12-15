@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from './imageGalleryItem.module.css';
+import styles from './imageGalleryItem.module.scss';
 
 const ImageGalleryItem = ({ image, onImageClick }) => {
   const fullImage = () => onImageClick(image.largeImageURL);

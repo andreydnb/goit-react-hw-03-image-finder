@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import styles from './searchForm.module.css';
+import styles from './searchForm.module.scss';
 
 const SearchFrom = ({ onSearch }) => {
   const [query, setQuery] = useState('');
